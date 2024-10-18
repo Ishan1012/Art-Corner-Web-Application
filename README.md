@@ -103,6 +103,6 @@ This application is structured as a **Single Page Application (SPA)** using Angu
 
 For any questions or contributions, feel free to contact:
 
-- **Name**: [Your Name]
-- **Email**: [YourEmail@example.com]
-- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
+- **Name**: [Ishan Dwivedi, Gaurav Singh, Kartik Kushwaha, Kaushiki Jaiswal, Gaurav Yadav]
+- **Email**: [ishandwivedi1210@gmail.com]
+- **GitHub**: [https://github.com/Ishan1012](https://github.com/Ishan1012)
