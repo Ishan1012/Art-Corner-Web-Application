@@ -9,24 +9,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page"
-              href="">Home</a>
+            <a class="nav-link" aria-current="page" [ngClass]="{'active':pages.pageNo === 1}" href="#" (click)="OpenPage(1)">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page"
-              href="./art-gallery/explore-components/explore-components.component.html">Explore</a>
+            <a class="nav-link" aria-current="page" [ngClass]="{'active':pages.pageNo === 2}" href="#" (click)="OpenPage(2)">Explore</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Favourites</a>
+            <a class="nav-link" aria-current="page" [ngClass]="{'active':pages.pageNo === 3}" href="#" (click)="OpenPage(3)">Favourites</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link" aria-current="page" [ngClass]="{'active':pages.pageNo === 4}" href="#" (click)="OpenPage(4)">Community</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+            <a class="nav-link" aria-current="page" [ngClass]="{'active':pages.pageNo === 5}" href="#" (click)="OpenPage(5)">About</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
+        <form class="d-flex" role="search" (submit)="GetResults()">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
@@ -43,21 +41,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page"
-              href="./art-gallery/index-page/index-page.component.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="Home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page"
-              href="./art-gallery/explore-components/explore-components.component.html">Explore</a>
+            <a class="nav-link active" aria-current="page" href="Explore">Explore</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Favourites</a>
+            <a class="nav-link active" aria-current="page" href="Favourites">Favourites</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link active" aria-current="page" href="Community">Community</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+            <a class="nav-link active" aria-current="page" href="About">About</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -67,13 +63,21 @@
       </div>
     </div>
   </nav>
-  <div class="contents container-fluid">
-    <!-- <app-index-page></app-index-page> -->
-  </div>
   <div class="container-fluid">
-    <app-explore-components></app-explore-components>
-  </div>
-  <div class="container-fluid">
-    <!-- <app-accessibility-features></app-accessibility-features> -->
+    <div *ngIf="pages.pageNo === 1">
+      <app-index-page></app-index-page>
+    </div>
+    <div *ngIf="pages.pageNo === 2">
+      <app-explore-components></app-explore-components>
+    </div>
+    <div *ngIf="pages.pageNo === 3">
+      <app-accessibility-features></app-accessibility-features>
+    </div>
+    <div *ngIf="pages.pageNo === 4">
+      <app-community-forum></app-community-forum>
+    </div>
+    <div *ngIf="pages.pageNo === 5">
+      <app-feedback-about-us></app-feedback-about-us>
+    </div>
   </div>
 </div>

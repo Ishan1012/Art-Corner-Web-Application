@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './accessibility-features.component.css'
 })
 export class AccessibilityFeaturesComponent {
+  OpenExplore() {
+    
+  }
 
 }
