@@ -1,10 +1,11 @@
-import { Component, NgModule } from '@angular/core';
+import { Component, NgModule, EventEmitter, Output } from '@angular/core';
 import { CreateExplore } from './CreateExplore';
+import { NgFor, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-explore-components',
   standalone: true,
-  imports: [],
+  imports: [NgIf,NgFor],
   templateUrl: './explore-components.component.html',
   styleUrl: './explore-components.component.css'
 })
@@ -20,7 +21,7 @@ export class ExploreComponentsComponent {
         desc: "The Goddess Oracle is a type of divination tool, often presented as a deck of cards, used for spiritual guidance and introspection. Each card typically features a goddess from various mythologies and cultures, symbolizing specific energies, qualities, or messages.",
         img: "./img/img1.jpg",
         link: "#",
-        like: true
+        like: false
       },
       {
         title: "Space travel",
@@ -515,10 +516,14 @@ export class ExploreComponentsComponent {
     ]
   }
 
-  AddLike(CreateExplore: { like: boolean; }) {
-    CreateExplore.like = true;
-  };
-  RemLike(CreateExplore: { like: boolean; }) {
-    CreateExplore.like = false;
-  };
+  trackByFn(item: any) {
+    return item.id;
+  }
+
+  toggleLike(item: CreateExplore) {
+    const index = this.artifacts.indexOf(item);
+    if (index !== -1) {
+      this.artifacts[index].like = !this.artifacts[index].like;
+    }
+  }
 }

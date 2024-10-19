@@ -4,6 +4,7 @@ import { ExploreComponentsComponent } from "./art-gallery/explore-components/exp
 import { IndexPageComponent } from "./art-gallery/index-page/index-page.component";
 import { FeedbackAboutUsComponent } from "./feedback-about-us/feedback-about-us.component";
 import { AccessibilityFeaturesComponent } from "./accessibility-features/accessibility-features.component";
+import { PagesContainer } from './PagesContainer';
 
 @Component({
   selector: 'app-root',
@@ -13,10 +14,21 @@ import { AccessibilityFeaturesComponent } from "./accessibility-features/accessi
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'art-corner';
-  constructor(){
-    setTimeout(() => {
-      this.title = "Art Corner";
-    }, 0);
+  pages : PagesContainer[];
+
+  constructor() {
+    this.pages = [
+      {
+        pageName: "Home"
+      },
+      {
+        pageName: "Explore"
+      },
+      {
+        pageName: "Favourites"
+      }
+    ]
   }
+
+  
 }
