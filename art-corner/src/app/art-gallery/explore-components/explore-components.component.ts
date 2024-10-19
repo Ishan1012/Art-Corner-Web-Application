@@ -1,11 +1,10 @@
 import { Component, NgModule } from '@angular/core';
 import { CreateExplore } from './CreateExplore';
-import { CardHoldersComponent } from "../card-holders/card-holders.component";
 
 @Component({
   selector: 'app-explore-components',
   standalone: true,
-  imports: [CardHoldersComponent],
+  imports: [],
   templateUrl: './explore-components.component.html',
   styleUrl: './explore-components.component.css'
 })
