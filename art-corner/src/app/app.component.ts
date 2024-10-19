@@ -17,7 +17,7 @@ import { CommunityForumComponent } from "./community-forum/community-forum.compo
 })
 export class AppComponent {
   GetResults() {
-    throw new Error('Method not implemented.');
+    
   }
   pages: PagesContainer = new PagesContainer();
 
