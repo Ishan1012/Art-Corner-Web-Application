@@ -9,8 +9,17 @@
     align-items: end;
 }
 
-.edit-card-img{
-    width: 18rem;
-    height: 250px;
+.img-fit{
+    aspect-ratio: 1/1;
     object-fit: cover;
+}
+
+.edit-card-body{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card-text-edit{
+    flex-grow: 1;
 }
