@@ -254,7 +254,7 @@ export class ExploreComponentsComponent{
         {
           title: "The Oracle",
           desc: "A Goddess Oracle is a type of divination tool, often presented as a deck of cards, used for spiritual guidance and introspection. Each card typically features a goddess from various mythologies and cultures, symbolizing specific energies, qualities, or messages.",
-          img: "./img/img37.jpeg",
+          img: "./img/img37.jpg",
           link: "#"
         },
         {
