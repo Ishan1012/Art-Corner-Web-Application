@@ -2,3 +2,15 @@
     display: flex;
     justify-content: space-around;
 }
+
+.btn-styles{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.edit-card-img{
+    width: 18rem;
+    height: 250px;
+    object-fit: cover;
+}

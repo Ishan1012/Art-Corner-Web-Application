@@ -1,17 +1,24 @@
-<br><br><br>
 <div class="container-fluid">
     <br>
     <h1 class="text-center ">Art Gallery</h1>
     <br>
     @for (art of artifacts; track art) {
-        <div class="card-container container-fluid d-flex ">
+        <div class="card-container container-fluid d-flex align-items-end">
             @for (item of art; track item.title) {
-                <div class="card" style="width: 18rem;">
-                    <img src={{item.img}} class="card-img-top" alt="...">
+                <div class="card" style="width: 18rem;overflow: hidden;">
+                    <img src={{item.img}} class="card-img-top edit-card-img" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{item.title}}</h5>
                         <p class="card-text">{{item.desc}}</p>
-                        <a href="{{item.link}}" class="btn btn-warning">Read more</a>
+                        <div class="btn-styles">
+                            <a href="{{item.link}}" class="btn btn-warning">Read more</a>
+                            @if (item.like) {
+                                <a class="btn btn-warning" (click)="AddLike(item)"><i class="bi bi-bookmark-fill"></i></a>
+                            }
+                            @else {
+                                <a class="btn btn-warning" (click)="RemLike(item)"><i class="bi bi-bookmark"></i></a>
+                            }
+                        </div>
                     </div>
                 </div>
             }

@@ -3,4 +3,5 @@ export class CreateExplore{
     desc: string = "";
     img: string = "";
     link: string = "";
+    like: boolean = false;
 }
