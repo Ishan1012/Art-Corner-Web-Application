@@ -7,18 +7,18 @@ import { AccessibilityFeaturesComponent } from "./accessibility-features/accessi
 import { PagesContainer } from './PagesContainer';
 import { NgClass, NgIf } from '@angular/common';
 import { CommunityForumComponent } from "./community-forum/community-forum.component";
+import { EducationalResourcesComponent } from "./educational-resources/educational-resources.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ExploreComponentsComponent, IndexPageComponent, FeedbackAboutUsComponent, AccessibilityFeaturesComponent, NgIf, NgClass, CommunityForumComponent],
+  imports: [RouterOutlet, ExploreComponentsComponent, IndexPageComponent, FeedbackAboutUsComponent, AccessibilityFeaturesComponent, NgIf, NgClass, CommunityForumComponent, EducationalResourcesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  GetResults() {
-    
-  }
+  GetResults() {}
+
   pages: PagesContainer = new PagesContainer();
 
   constructor() {
@@ -27,5 +27,10 @@ export class AppComponent {
 
   OpenPage(page: number) {
     this.pages.pageNo = page;
+  }
+
+  getPages()
+  {
+    return this.pages;
   }
 }

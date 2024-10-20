@@ -1,1 +1,30 @@
-<p>educational-resources works!</p>
+<div class="container text-center mx-auto container-edit">
+    <img src="{{currentItem.img}}" class="img-fluid img-edit mb-2" alt="Image" style="padding: 0;">
+    <br><br><br><br>
+    <h1 class="text-center fs-1 pt-2">{{currentItem.title}}</h1>
+    <p class="text-center fs-5 pt-2">{{currentItem.time}}</p>
+    <div class="d-flex justify-content-center gap-3 mb-6">
+        <div class="row">
+            <div class="col col-xl-2">
+                <a target="_blank" class="btn"><i class="bi bi-heart-fill fs-3"></i></a>
+            </div>
+            <ng-template id="unlike" class="col col-xl-2">
+                <a target="_blank" class="btn"><i class="bi bi-heart fs-3"></i></a>
+            </ng-template>
+            <div class="col col-xl-2">
+                <a target="_blank" class="btn"><i class="bi bi-link fs-3"></i></a>
+            </div>
+            <div class="col col-xl-2">
+                <a target="_blank" class="btn"><i class="bi bi-facebook fs-3"></i></a>
+            </div>
+            <div class="col col-xl-2">
+                <a target="_blank" class="btn"><i class="bi bi-twitter-x fs-3"></i></a>
+            </div>
+            <div class="col col-xl-2">
+                <a target="_blank" class="btn"><i class="bi bi-share fs-3"></i></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <p class="fs-6 text-secondary mb-4 edit-p justified">{{currentItem.desc}}</p>
+</div>

@@ -1,25 +1,30 @@
-.card-container{
+.card-container {
     display: flex;
     justify-content: space-around;
 }
 
-.btn-styles{
+.btn-styles {
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
 
-.img-fit{
+.img-fit {
     aspect-ratio: 1/1;
     object-fit: cover;
 }
 
-.edit-card-body{
+.edit-card-body {
     display: flex;
     height: 100%;
     flex-direction: column;
 }
 
-.card-text-edit{
+.card-text-edit {
     flex-grow: 1;
+}
+
+.justified {
+    display: inline-block;
+    text-justify: inter-word;
 }

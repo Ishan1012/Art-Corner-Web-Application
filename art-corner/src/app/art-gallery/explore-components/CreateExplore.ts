@@ -4,4 +4,5 @@ export class CreateExplore{
     img: string = "";
     link: string = "";
     like: boolean = false;
+    time: string = "";
 }

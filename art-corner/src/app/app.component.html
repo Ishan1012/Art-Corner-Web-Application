@@ -63,15 +63,15 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
+  <div class="container-fluid" style="padding: 0;">
     <div *ngIf="pages.pageNo === 1">
       <app-index-page></app-index-page>
     </div>
-    <div *ngIf="pages.pageNo === 2">
-      <app-explore-components></app-explore-components>
+    <div *ngIf="pages.pageNo === 2 || pages.pageNo === 6">
+      <app-explore-components [pages]="getPages()"></app-explore-components>
     </div>
     <div *ngIf="pages.pageNo === 3">
-      <app-accessibility-features></app-accessibility-features>
+      <app-accessibility-features [pages]="getPages()"></app-accessibility-features>
     </div>
     <div *ngIf="pages.pageNo === 4">
       <app-community-forum></app-community-forum>
