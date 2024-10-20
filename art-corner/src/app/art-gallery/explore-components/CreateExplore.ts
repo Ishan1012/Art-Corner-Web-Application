@@ -4,5 +4,6 @@ export class CreateExplore{
     img: string = "";
     link: string = "";
     like: boolean = false;
+    bookmark: boolean = false;
     time: string = "";
 }

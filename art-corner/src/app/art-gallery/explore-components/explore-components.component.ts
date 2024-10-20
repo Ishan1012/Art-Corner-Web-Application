@@ -29,7 +29,7 @@ export class ExploreComponentsComponent {
   toggleLike(item: CreateExplore) {
     const index = this.artifacts.indexOf(item);
     if (index !== -1) {
-      this.artifacts[index].like = !this.artifacts[index].like;
+      this.artifacts[index].bookmark = !this.artifacts[index].bookmark;
     }
   }
 

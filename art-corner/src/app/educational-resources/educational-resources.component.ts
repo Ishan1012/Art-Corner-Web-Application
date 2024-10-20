@@ -2,6 +2,7 @@ import { Component, input, Input } from '@angular/core';
 import { CreateExplore } from '../art-gallery/explore-components/CreateExplore';
 import { NgClass, NgIf } from '@angular/common';
 import { initialArtifacts } from '../data/initialArtifacts';
+import { PagesContainer } from '../PagesContainer';
 
 @Component({
   selector: 'app-educational-resources',
@@ -13,6 +14,7 @@ import { initialArtifacts } from '../data/initialArtifacts';
 export class EducationalResourcesComponent {
   @Input() currentItem: CreateExplore = new CreateExplore;
   @Input() artifacts: CreateExplore[];
+  @Input() pages: PagesContainer = new PagesContainer;
 
   constructor(){
     this.artifacts = initialArtifacts;
@@ -39,5 +41,9 @@ export class EducationalResourcesComponent {
     if (index+1 !== this.artifacts.length) {
       this.currentItem = this.artifacts[index+1];
     }
+  }
+
+  moveHome() {
+    this.pages.pageNo = 2;
   }
 }

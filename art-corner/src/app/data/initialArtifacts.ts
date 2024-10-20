@@ -7,6 +7,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img1.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -15,6 +16,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img2.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -23,6 +25,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img3.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -31,6 +34,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img4.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -39,6 +43,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img5.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -47,6 +52,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img6.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -55,6 +61,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img7.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -63,6 +70,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img8.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -71,6 +79,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img9.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -79,6 +88,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img10.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -87,6 +97,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img11.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -95,6 +106,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img12.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -103,6 +115,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img13.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -111,6 +124,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img14.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -119,6 +133,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img15.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -127,6 +142,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img16.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -135,6 +151,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img17.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -143,6 +160,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img18.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -151,6 +169,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img19.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -159,6 +178,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img20.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -167,6 +187,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img21.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -175,6 +196,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img22.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -183,6 +205,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img23.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -191,6 +214,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img24.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -199,6 +223,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img25.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -207,6 +232,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img26.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -215,6 +241,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img27.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -223,6 +250,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img28.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -231,6 +259,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img29.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -239,6 +268,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img30.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -247,6 +277,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img31.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -255,6 +286,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img32.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -263,6 +295,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img33.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -271,6 +304,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img34.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -279,6 +313,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img35.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -287,6 +322,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img36.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -295,6 +331,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img37.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -303,6 +340,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img38.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -311,6 +349,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img39.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -319,6 +358,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img40.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -327,6 +367,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img41.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -335,6 +376,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img42.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -343,6 +385,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img43.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -351,6 +394,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img44.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -359,6 +403,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img45.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -367,6 +412,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img46.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -375,6 +421,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img47.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -383,6 +430,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img48.jpg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -391,6 +439,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img49.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -399,6 +448,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img50.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -407,6 +457,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img51.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -415,6 +466,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img52.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -423,6 +475,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img53.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -431,6 +484,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img54.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -439,6 +493,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img55.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -447,6 +502,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img56.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -455,6 +511,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img57.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -463,6 +520,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img58.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -471,6 +529,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img59.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -479,6 +538,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img60.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -487,6 +547,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img61.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -495,6 +556,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img62.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -503,6 +565,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img63.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -511,6 +574,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img64.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -519,6 +583,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img65.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -527,6 +592,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img66.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -535,6 +601,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img67.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -543,6 +610,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img68.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -551,6 +619,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img69.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -559,6 +628,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img70.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
     {
@@ -567,6 +637,7 @@ export const initialArtifacts: CreateExplore[] = [
       img: "./img/img71.jpeg",
       link: "#",
       like: false,
+      bookmark: false,
       time: "17 sept 2019 - 20 dec 2022"
     },
   ];

@@ -64,7 +64,7 @@
     </div>
   </nav>
   <div class="container-fluid" style="padding: 0;">
-    <div *ngIf="pages.pageNo === 1">
+    <div *ngIf="pages.pageNo === 1 || pages.pageNo === 0">
       <app-index-page [pages]="getPages()"></app-index-page>
     </div>
     <div *ngIf="pages.pageNo === 2 || pages.pageNo === 6">

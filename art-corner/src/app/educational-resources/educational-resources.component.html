@@ -15,7 +15,8 @@
     <p class="fs-6 text-secondary mb-4 edit-p justified">{{currentItem.desc}}</p>
     <br><br>
     <div class="container container-space">
-        <a class="btn btn-outline-primary" (click)="moveBack(currentItem)">Back</a>
+        <a class="btn btn-outline-primary" (click)="moveBack(currentItem)">Previous</a>
+        <a class="btn btn-outline-primary" (click)="moveHome()">Home</a>
         <a class="btn btn-outline-primary" (click)="moveNext(currentItem)">Next</a>
     </div>
 </div>

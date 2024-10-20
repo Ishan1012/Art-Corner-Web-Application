@@ -22,7 +22,7 @@ export class AppComponent {
   pages: PagesContainer = new PagesContainer();
 
   constructor() {
-    this.pages.pageNo = 1;
+    this.pages.pageNo = 0;
   }
 
   OpenPage(page: number) {

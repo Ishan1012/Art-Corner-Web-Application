@@ -13,12 +13,11 @@ import { PagesContainer } from '../PagesContainer';
 })
 export class AccessibilityFeaturesComponent {
   @Input() pages: PagesContainer = new PagesContainer;
+  artifacts: CreateExplore[];
   
   OpenExplore() {
     this.pages.pageNo = 2;
   }
-
-  artifacts: CreateExplore[];
 
   constructor() {
     this.artifacts = initialArtifacts;
@@ -27,7 +26,7 @@ export class AccessibilityFeaturesComponent {
   toggleLike(item: CreateExplore) {
     const index = this.artifacts.indexOf(item);
     if (index !== -1) {
-      this.artifacts[index].like = !this.artifacts[index].like;
+      this.artifacts[index].bookmark = !this.artifacts[index].bookmark;
     }
   }
 
