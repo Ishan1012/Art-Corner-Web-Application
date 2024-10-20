@@ -3,28 +3,20 @@
     <br><br><br><br>
     <h1 class="text-center fs-1 pt-2">{{currentItem.title}}</h1>
     <p class="text-center fs-5 pt-2">{{currentItem.time}}</p>
-    <div class="d-flex justify-content-center gap-3 mb-6">
-        <div class="row">
-            <div class="col col-xl-2">
-                <a target="_blank" class="btn"><i class="bi bi-heart-fill fs-3"></i></a>
-            </div>
-            <ng-template id="unlike" class="col col-xl-2">
-                <a target="_blank" class="btn"><i class="bi bi-heart fs-3"></i></a>
-            </ng-template>
-            <div class="col col-xl-2">
-                <a target="_blank" class="btn"><i class="bi bi-link fs-3"></i></a>
-            </div>
-            <div class="col col-xl-2">
-                <a target="_blank" class="btn"><i class="bi bi-facebook fs-3"></i></a>
-            </div>
-            <div class="col col-xl-2">
-                <a target="_blank" class="btn"><i class="bi bi-twitter-x fs-3"></i></a>
-            </div>
-            <div class="col col-xl-2">
-                <a target="_blank" class="btn"><i class="bi bi-share fs-3"></i></a>
-            </div>
-        </div>
+    <div class="d-flex justify-content-center mb-6">
+        <a target="_blank" class="btn" (click)="toggleLike(currentItem)"><i
+                [ngClass]="currentItem.like?'bi-heart-fill':'bi-heart'" class="bi fs-3"></i></a>
+        <a target="_blank" class="btn"><i class="bi bi-link fs-3"></i></a>
+        <a target="_blank" class="btn"><i class="bi bi-facebook fs-3"></i></a>
+        <a target="_blank" class="btn"><i class="bi bi-twitter-x fs-3"></i></a>
+        <a target="_blank" class="btn"><i class="bi bi-share fs-3"></i></a>
     </div>
     <br>
     <p class="fs-6 text-secondary mb-4 edit-p justified">{{currentItem.desc}}</p>
+    <br><br>
+    <div class="container container-space">
+        <a class="btn btn-outline-primary" (click)="moveBack(currentItem)">Back</a>
+        <a class="btn btn-outline-primary" (click)="moveNext(currentItem)">Next</a>
+    </div>
 </div>
+<br><br>

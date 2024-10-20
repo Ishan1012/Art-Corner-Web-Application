@@ -21,3 +21,8 @@
     padding-right: 100px;
     overflow: hidden;
 }
+
+.container-space{
+    display: flex;
+    justify-content: space-between;
+}
