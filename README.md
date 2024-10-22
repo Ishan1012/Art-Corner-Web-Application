@@ -25,7 +25,7 @@
 4. **Dynamic Content**: The main content area dynamically loads components like the home page and explore section using Angular's `<app-root>` and `<app-index-page>` tags.
 5. **Theming & Branding**: Includes branding elements like a favicon (`corner.ico`) and logo (`logo-navbar.png`).
 
-![Project Logo](screenshots/corner.ico)
+              ![Project Logo](screenshots/corner.ico)
 
 ---
 
