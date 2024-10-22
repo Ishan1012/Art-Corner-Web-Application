@@ -23,10 +23,9 @@
 2. **Interactive Navigation**: A fixed top navigation bar that provides links to various sections of the site like Explore, Favourites, About, and Contact Us.
 3. **Search Functionality**: Users can search through the portfolio content using the search bar.
 4. **Dynamic Content**: The main content area dynamically loads components like the home page and explore section using Angular's `<app-root>` and `<app-index-page>` tags.
+5. **Theming & Branding**: Includes branding elements like a favicon (`corner.ico`) and logo (`logo-navbar.png`).
 
 ![Project Logo](screenshots/corner.ico)
-
-5. **Theming & Branding**: Includes branding elements like a favicon (`corner.ico`) and logo (`logo-navbar.png`).
 
 ---
 
