@@ -21,29 +21,11 @@ import { promises } from 'dns';
 })
 export class AppComponent {
   GetResults() {}
-  artifacts: CreateExplore[];
-  checkActiveFav: boolean;
 
   pages: PagesContainer = new PagesContainer();
 
   constructor() {
     this.pages.pageNo = 'index';
-    this.artifacts = initialArtifacts;
-    this.checkActiveFav = false;
-  }
-
-  checkActiveFavourite()
-  {
-    for (let i = 0; i < this.artifacts.length; i++) {
-      const element = this.artifacts[i];
-      if(element.bookmark === true)
-      {
-        this.checkActiveFav === true;
-        break;
-      }
-    }
-
-    return true;
   }
 
   OpenPage(page: string) {

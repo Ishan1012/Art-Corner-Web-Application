@@ -26,17 +26,20 @@ export class AccessibilityFeaturesComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
-    for (let i = 0; i < this.artifacts.length; i++) {
-      const element = this.artifacts[i];
-      if (element.bookmark === true) {
-        this.likedArtifacts.push(element);
-      }
-    }
-
+    this.likedArtifacts = this.initializeLikedArtifacts();
     this.checkActive = this.checkActiveFav();
   }
 
+  initializeLikedArtifacts(): CreateExplore[] {
+    this.likedArtifacts = [];
+    
+    this.likedArtifacts = this.artifacts.filter(artifact => artifact.bookmark === true);
+    
+    this.likedArtifacts.splice(0,1);
+  
+    return this.likedArtifacts;
+  }
+  
   OpenExplore() {
     this.pages.pageNo = 'explore';
   }
@@ -62,7 +65,7 @@ export class AccessibilityFeaturesComponent implements OnInit {
   }
 
   trackByFn(item: any): number {
-    return item.id; // or any unique identifier
+    return item.id; 
   }
 
   readMore(item: CreateExplore) {
