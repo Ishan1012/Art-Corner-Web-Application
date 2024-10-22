@@ -45,8 +45,9 @@
 
 This application is structured as a **Single Page Application (SPA)** using Angular. Key architectural components include:
 
-- **Modules of this Project**: The modules in which the Angular application is divided into are as follows. These modules are evenly divided between the team members for better efficiency
-  ![Project Screenshot](screenshots/Beige%20Minimalist%20Timeline%20Diagram%20Graph.png)
+- **Modules of this Project**: The modules in which the Angular application is divided into are as follows. These modules are evenly divided between the team members for better efficiency.
+  
+  ![Project Screenshot](screenshots/corner.ico)
 
 - **Index.html**: The root HTML file that loads the Angular application. It includes the base href, metadata, and an app-root directive to load the main Angular component.
   ```html
@@ -138,6 +139,13 @@ This application is structured as a **Single Page Application (SPA)** using Angu
 
 For any questions or contributions, feel free to contact:
 
-- **Name**: [Ishan Dwivedi]
+- ## Team Members
+
+1. **Ishan Dwivedi** - Fullstack Developer - Angular Framework
+2. **Gaurav Signh** - Backend Developer - Mongodb Database
+3. **Kaushiki Jaiswal** - UI/UX Designer
+4. **Gaurav Yadav** - Frontend Developer
+5. **Kartik Kushwaha** - Frontend Engineer - Angular Framework
+
 - **Email**: [ishandwivedi1210@gmail.com]
 - **GitHub**: [https://github.com/Ishan1012](https://github.com/Ishan1012)
