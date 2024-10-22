@@ -7,6 +7,12 @@
 
 ---
 
+## **Logo**
+
+![Project Logo](screenshots/corner.png)
+
+---
+
 ## **Table of Contents**
 1. [Project Overview](#project-overview)
 2. [Features](#features)
@@ -39,6 +45,9 @@
 
 This application is structured as a **Single Page Application (SPA)** using Angular. Key architectural components include:
 
+- **Modules of this Project**: The modules in which the Angular application is divided into are as follows. These modules are evenly divided between the team members for better efficiency
+  ![Project Screenshot](screenshots/Beige%20Minimalist%20Timeline%20Diagram%20Graph.png)
+
 - **Index.html**: The root HTML file that loads the Angular application. It includes the base href, metadata, and an app-root directive to load the main Angular component.
   ```html
   <app-root></app-root>
@@ -66,6 +75,7 @@ This application is structured as a **Single Page Application (SPA)** using Angu
   </div>
   ```
   ![Project Screenshot](screenshots/Screenshot%202024-10-21%20232120.png)
+
   ![Project Screenshot](screenshots/Screenshot%202024-10-21%20232125.png)
 
 - **Favourites Page**: The primary Angular component that manages the layout, including the navigation bar and content sections.
