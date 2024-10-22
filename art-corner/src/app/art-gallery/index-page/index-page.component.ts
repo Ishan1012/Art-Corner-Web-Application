@@ -11,6 +11,6 @@ import { PagesContainer } from '../../PagesContainer';
 export class IndexPageComponent{
   @Input() pages: PagesContainer = new PagesContainer;
   OpenExplore() {
-    this.pages.pageNo = 2;
+    this.pages.pageNo = 'explore';
   }
 }

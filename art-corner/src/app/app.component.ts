@@ -8,6 +8,9 @@ import { PagesContainer } from './PagesContainer';
 import { NgClass, NgIf } from '@angular/common';
 import { CommunityForumComponent } from "./community-forum/community-forum.component";
 import { EducationalResourcesComponent } from "./educational-resources/educational-resources.component";
+import { CreateExplore } from './art-gallery/explore-components/CreateExplore';
+import { initialArtifacts } from './data/initialArtifacts';
+import { promises } from 'dns';
 
 @Component({
   selector: 'app-root',
@@ -18,14 +21,32 @@ import { EducationalResourcesComponent } from "./educational-resources/education
 })
 export class AppComponent {
   GetResults() {}
+  artifacts: CreateExplore[];
+  checkActiveFav: boolean;
 
   pages: PagesContainer = new PagesContainer();
 
   constructor() {
-    this.pages.pageNo = 0;
+    this.pages.pageNo = 'index';
+    this.artifacts = initialArtifacts;
+    this.checkActiveFav = false;
   }
 
-  OpenPage(page: number) {
+  checkActiveFavourite()
+  {
+    for (let i = 0; i < this.artifacts.length; i++) {
+      const element = this.artifacts[i];
+      if(element.bookmark === true)
+      {
+        this.checkActiveFav === true;
+        break;
+      }
+    }
+
+    return true;
+  }
+
+  OpenPage(page: string) {
     this.pages.pageNo = page;
   }
 

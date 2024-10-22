@@ -36,7 +36,7 @@ export class ExploreComponentsComponent {
   readMore(item: CreateExplore)
   {
     this.currentItem = item;
-    this.pages.pageNo = 6;
+    this.pages.pageNo = 'content';
     console.log(this.pages,this.currentItem);
   }
 

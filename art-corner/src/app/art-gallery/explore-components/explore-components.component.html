@@ -1,4 +1,4 @@
-<div *ngIf="pages.pageNo === 2">
+<div *ngIf="pages.pageNo === 'explore'">
   <div class="container-fluid">
     <br>
     <h1 class="text-center">Art Gallery</h1>
@@ -28,7 +28,7 @@
   <br><br>
 </div>
 
-<div *ngIf="pages.pageNo === 6">
+<div *ngIf="pages.pageNo === 'content'">
   <div class="container-fluid" style="padding: 0;">
     <app-educational-resources [pages]="pages" [currentItem]="currentItem" [artifacts]="artifacts"></app-educational-resources>
   </div>

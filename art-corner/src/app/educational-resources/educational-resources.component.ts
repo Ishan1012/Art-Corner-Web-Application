@@ -44,6 +44,6 @@ export class EducationalResourcesComponent {
   }
 
   moveHome() {
-    this.pages.pageNo = 2;
+    this.pages.pageNo = 'explore';
   }
 }

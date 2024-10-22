@@ -1,3 +1,3 @@
 export class PagesContainer{
-    pageNo: number = 0;
+    pageNo: string = '';
 }
