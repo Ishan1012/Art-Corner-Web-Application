@@ -43,8 +43,9 @@ This application is structured as a **Single Page Application (SPA)** using Angu
   ```html
   <app-root></app-root>
   ```
+  ![Project Screenshot](screenshots/Screenshot%202024-10-21%20232050.png)
 
-- **App Component**: The primary Angular component that manages the layout, including the navigation bar and content sections.
+- **Explore Page**: The primary Angular component that manages the layout, including the navigation bar and content sections.
   ```html
   <nav class="navbar fixed-top bg-light navbar-expand-lg">
     <!-- Navbar content with links to Home, Explore, Favourites, About, and Contact Us -->
@@ -53,6 +54,30 @@ This application is structured as a **Single Page Application (SPA)** using Angu
     <app-index-page></app-index-page>
   </div>
   ```
+  ![Project Screenshot](screenshots/Screenshot%202024-10-21%20232056.png)
+
+- **Content Page**: The primary Angular component that manages the layout, including the navigation bar and content sections.
+  ```html
+  <nav class="navbar fixed-top bg-light navbar-expand-lg">
+    <!-- Navbar content with links to Home, Explore, Favourites, About, and Contact Us -->
+  </nav>
+  <div class="contents container-fluid">
+    <app-educational-resources-page></app-educational-resources-page>
+  </div>
+  ```
+  ![Project Screenshot](screenshots/Screenshot%202024-10-21%20232120.png)
+  ![Project Screenshot](screenshots/Screenshot%202024-10-21%20232125.png)
+
+- **Favourites Page**: The primary Angular component that manages the layout, including the navigation bar and content sections.
+  ```html
+  <nav class="navbar fixed-top bg-light navbar-expand-lg">
+    <!-- Navbar content with links to Home, Explore, Favourites, About, and Contact Us -->
+  </nav>
+  <div class="contents container-fluid">
+    <app-accessibility-features-page></app-accessibility-features-page>
+  </div>
+  ```
+  ![Project Screenshot](screenshots/Screenshot%202024-10-22%20192353.png)
 
 ---
 
