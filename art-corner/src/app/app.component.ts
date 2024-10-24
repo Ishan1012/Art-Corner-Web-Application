@@ -8,9 +8,6 @@ import { PagesContainer } from './PagesContainer';
 import { NgClass, NgIf } from '@angular/common';
 import { CommunityForumComponent } from "./community-forum/community-forum.component";
 import { EducationalResourcesComponent } from "./educational-resources/educational-resources.component";
-import { CreateExplore } from './art-gallery/explore-components/CreateExplore';
-import { initialArtifacts } from './data/initialArtifacts';
-import { promises } from 'dns';
 
 @Component({
   selector: 'app-root',
