@@ -37,7 +37,5 @@ export class ExploreComponentsComponent {
   {
     this.currentItem = item;
     this.pages.pageNo = 'content';
-    console.log(this.pages,this.currentItem);
   }
-
 }
