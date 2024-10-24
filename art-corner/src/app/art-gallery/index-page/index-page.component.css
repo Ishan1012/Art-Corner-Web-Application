@@ -72,8 +72,8 @@ h3{
 }
 
 .contact-section button:hover{
-    background: rgb(255, 55, 0);
-    border-color: rgb(255, 55, 0);
+    background: rgb(6, 68, 192);
+    border-color: rgb(6, 68, 192);
 }
 
 .contact-section .social-icons i{
@@ -85,7 +85,6 @@ h3{
 
 .contact-section .social-icons i:hover{
     transform: translateY(-5px);
-
 }
 
 .contact-section .social-icons i:nth-child(1):hover{
