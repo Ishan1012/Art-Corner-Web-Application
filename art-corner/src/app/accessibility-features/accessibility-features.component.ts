@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 import { initialArtifacts } from '../data/initialArtifacts';
 import { CreateExplore } from '../art-gallery/explore-components/CreateExplore';
 import { NgFor, NgIf } from '@angular/common';
@@ -33,9 +33,7 @@ export class AccessibilityFeaturesComponent implements OnInit {
   initializeLikedArtifacts(): CreateExplore[] {
     this.likedArtifacts = [];
     
-    this.likedArtifacts = this.artifacts.filter(artifact => artifact.bookmark === true);
-    
-    this.likedArtifacts.splice(0,1);
+    this.likedArtifacts = this.artifacts.filter(artifact => artifact.bookmark === true).slice(1);
   
     return this.likedArtifacts;
   }
@@ -71,7 +69,5 @@ export class AccessibilityFeaturesComponent implements OnInit {
   readMore(item: CreateExplore) {
     this.currentItem = item;
     this.pages.pageNo = 'content';
-    console.log(this.pages, this.currentItem);
   }
-
 }

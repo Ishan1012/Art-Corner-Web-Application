@@ -12,34 +12,30 @@ import { PagesContainer } from '../PagesContainer';
   styleUrl: './educational-resources.component.css'
 })
 export class EducationalResourcesComponent {
-  @Input() currentItem: CreateExplore = new CreateExplore;
-  @Input() artifacts: CreateExplore[];
+  @Input() currentItem: CreateExplore = new CreateExplore();
+  @Input() list: CreateExplore[] = [];
   @Input() pages: PagesContainer = new PagesContainer;
-
-  constructor(){
-    this.artifacts = initialArtifacts;
-  }
   
   item: CreateExplore = this.currentItem;
 
   toggleLike(item: CreateExplore) {
-    const index = this.artifacts.indexOf(item);
+    const index = this.list.indexOf(item);
     if (index !== -1) {
-      this.artifacts[index].like = !this.artifacts[index].like;
+      this.list[index].like = !this.list[index].like;
     }
   }
   
   moveBack(item: CreateExplore) {
-    const index = this.artifacts.indexOf(item);
+    const index = this.list.indexOf(item);
     if (index-1 !== -1) {
-      this.currentItem = this.artifacts[index-1];
+      this.currentItem = this.list[index-1];
     }
   }
 
   moveNext(item: CreateExplore) {
-    const index = this.artifacts.indexOf(item);
-    if (index+1 !== this.artifacts.length) {
-      this.currentItem = this.artifacts[index+1];
+    const index = this.list.indexOf(item);
+    if (index+1 !== this.list.length) {
+      this.currentItem = this.list[index+1];
     }
   }
 
