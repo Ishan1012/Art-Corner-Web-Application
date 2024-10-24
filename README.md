@@ -137,11 +137,11 @@ For any questions or contributions, feel free to contact:
 
 - ## Team Members
 
-1. **Ishan Dwivedi** - Fullstack Developer - Angular Framework
-2. **Gaurav Signh** - Backend Developer - Mongodb Database
+1. **Ishan Dwivedi** - DevOps Engineer - Angular Framework
+2. **Gaurav Signh** - MongoDB Engineer
 3. **Kaushiki Jaiswal** - UI/UX Designer
 4. **Gaurav Yadav** - Frontend Developer
-5. **Kartik Kushwaha** - Frontend Engineer - Angular Framework
+5. **Kartik Kushwaha** - Frontend Engineer
 
 - **Email**: [ishandwivedi1210@gmail.com]
 - **GitHub**: [https://github.com/Ishan1012](https://github.com/Ishan1012)
